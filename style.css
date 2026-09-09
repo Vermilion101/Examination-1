@@ -2,6 +2,17 @@ body {
     font-family: sans-serif;
 }
 
+.hero {
+    background-color: rgb(215, 215, 215);
+    border: 1px solid rgb(172, 172, 172);
+    padding: 1.5rem;
+}
+
+.hero img{
+    height: 250px;
+    width: 300px;
+}
+
 .schema {
     background-color: rgb(215, 215, 215);
     border: 1px solid rgb(172, 172, 172);
@@ -15,4 +26,10 @@ body {
     background-color: rgb(227, 227, 227);
     padding: 1.5rem;
 
+}
+
+footer {
+    background-color: rgb(215, 215, 215);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
 }
