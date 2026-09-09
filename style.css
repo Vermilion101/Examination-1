@@ -13,6 +13,17 @@ body {
     width: 300px;
 }
 
+.highlights {
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlights article {
+    background-color: rgb(215, 215, 215);
+    border: 1px solid rgb(172, 172, 172);
+    padding: 1.5rem;
+}
+
 .schema {
     background-color: rgb(215, 215, 215);
     border: 1px solid rgb(172, 172, 172);
