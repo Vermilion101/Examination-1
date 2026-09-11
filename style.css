@@ -44,3 +44,13 @@ footer {
     padding: 1.5rem;
     margin-top: 1.5rem;
 }
+
+@media (max-width: 600px) {
+  .highlights {
+    flex-direction: column;
+  }
+
+  .schema {
+    grid-template-columns: 1fr;
+  }
+}
