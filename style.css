@@ -3,20 +3,40 @@ body {
 }
 
 .nav {
-    background-color: rgb(215, 215, 215);
-    border: 1px solid rgb(172, 172, 172);
+    background-color: #2A835F;
+    border: 1px solid #12544F;
     padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
 }
 
 .nav a{
-    background-color: rgb(240, 240, 240);
+    background-color: #8BBB92;
     padding: 1.5rem;
+    text-decoration: none;
+    color: #092328;
 }
 
 .hero {
-    background-color: rgb(215, 215, 215);
-    border: 1px solid rgb(172, 172, 172);
+    background-color: #2A835F;
+    border: 1px solid #12544F;
     padding: 1.5rem;
+    color: #092328;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #12544F, #2A835F);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero a {
+    background-color: #8BBB92;
+    border: 1px solid #12544F;
+    padding: 1.5rem;
+    width: 100px;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #092328;
 }
 
 .hero img{
@@ -30,30 +50,36 @@ body {
 }
 
 .highlights article {
-    background-color: rgb(215, 215, 215);
-    border: 1px solid rgb(172, 172, 172);
+    background-color: #2A835F;
+    border: 1px solid #12544F;
     padding: 1.5rem;
+    color: #092328;
+    border-radius: 1rem;
 }
 
 .schema {
-    background-color: rgb(215, 215, 215);
-    border: 1px solid rgb(172, 172, 172);
+    background-color: #2A835F;
+    border: 1px solid #12544F;
+    color: #092328;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 .schema article {
-    background-color: rgb(227, 227, 227);
+    background-color: #8BBB92;
     padding: 1.5rem;
 
 }
 
 footer {
-    background-color: rgb(215, 215, 215);
+    background-color: #2A835F;
+    border: 1px solid #12544F;
     padding: 1.5rem;
     margin-top: 1.5rem;
+    border-radius: 1rem;
 }
 
 @media (max-width: 600px) {
